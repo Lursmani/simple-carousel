@@ -59,10 +59,10 @@ function CarouselView() {
                         It is customizable, responsive, easy to use, and fast. 
                   </p>
                   <p className="cardem-slide3-text">
-                      So, if you like it and want to use it yourself, you can find it on my github <a id="cardem-slide3-link" href="https://github.com/Lursmani/simple-carousel">repo</a>.
+                      So, if you like it and want to use it yourself, you can find it on my github <a id="cardem-slide3-link" href="https://github.com/Lursmani/simple-carousel">repo</a>. Instructions can be found in the repo, and also in the "how to use" file within the app. 
                   </p>
                   <p className="cardem-slide3-text">
-                        Or, go to the next slide and watch a very cute video. 
+                        Now you can go to the next slide and watch a very cute video. 
                   </p>
               </div>
           </Slide>
