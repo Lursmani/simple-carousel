@@ -91,4 +91,8 @@
   .right-arrow {
     display: none;
   }
+  .carousel-inner-container {
+    width: 100vw;
+    max-height: 98vh;
+  }
 }
