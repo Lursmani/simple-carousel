@@ -49,6 +49,7 @@
 .carousel-content > * {
   flex-shrink: 0;
   flex-grow: 1;
+  scroll-snap-align: start;
 }
 
 .left-arrow,
@@ -71,20 +72,6 @@
   right: 24px;
 }
 
-.carousel-slide {
-  scroll-snap-align: center;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
-.carousel-slide-inner {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  justify-items: center;
-}
 
 @media only screen and (max-width: 768px) {
   .left-arrow,
@@ -92,7 +79,7 @@
     display: none;
   }
   .carousel-inner-container {
-    width: 100vw;
-    max-height: 98vh;
+  width: 100vw;
+  max-height: 89vh;
   }
 }
